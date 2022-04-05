@@ -6,3 +6,9 @@ Exercício de média aritmética
 
 https://scratch.mit.edu/projects/663769063/
 Exercício da Alfandega
+
+# Exemplo 1-scratch:https://scratch.mit.edu/projects/671429714/
+# Exemplo 2-scratch:https://scratch.mit.edu/projects/671443557/
+# Exemplo 3-scratch:https://scratch.mit.edu/projects/671451939/
+# Exemplo 4-scratch:https://scratch.mit.edu/projects/671451939/
+# Exemplo 5-scratch:https://scratch.mit.edu/projects/671473637/
