@@ -1,0 +1,13 @@
+Algoritmo calculevt
+  Entrar com um valor para QTDE
+  Entrar com um valor para VALOR
+  Faça VT=(QTDE*VALOR)
+  Mostre VT
+
+
+Teste de mesa 
+QTDE  VALOR   VT
+5     3       15
+4     2       8
+
+  
