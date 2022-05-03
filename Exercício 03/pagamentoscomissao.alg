@@ -1,0 +1,25 @@
+algoritmo "PagamentosComissao"
+// Função : Pagamentos de comisssão de vendedores de peças
+// Autor :Bianca
+// Data : 03/05/2022
+// Seção de Declarações 
+var
+preco:real
+quantidade:real
+resultado:real
+inicio
+// Dados de Entrada
+escreval("Digite um preço: ")
+leia(preco)
+escreval("Digite uma quantidade: ")
+leia(quantidade)
+//processamento
+resultado <- preco*quantidade(%5)
+//Dados de saída
+escreval("O resultado do pagamento é: ",resultado)
+
+
+
+
+
+fimalgoritmo
