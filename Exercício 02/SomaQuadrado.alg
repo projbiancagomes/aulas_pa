@@ -1,0 +1,26 @@
+algoritmo "SomaQuadrado"
+// Função :Somar o quadrado de um número
+// Autor :Bianca
+// Data : 03/05/2022
+// Seção de Declarações 
+var
+ n1:real
+ n2:real
+ n3:real
+ n4:real
+ resultado:real
+inicio
+// Dados de Entrada
+escreval("Digite um número: ")
+leia(n1)
+escreval("Digite um número: ")
+leia(n2)
+escreval("Digite um número: ")
+leia(n3)
+escreval("Digite um número: ")
+leia(n4)
+//Processamento
+resultado <- (n1*n1)+(n2*n2)+(n3*n3)+(n4*n4)
+//Dados de Saída
+escreval("O resultado da soma do quadrado é: ",resultado)
+fimalgoritmo
