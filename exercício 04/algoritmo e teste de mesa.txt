@@ -1,0 +1,13 @@
+Algortitmo custofabricacarro
+   Entre com um valor do custo_carro
+   Entre com uma porcentagem de impostos
+   Entre com uma prcentagem para distribuicao
+   resultado_consumidor=custo_carro+imposto
+   resultado=resultado_consumidor+distribuicao
+   Mostre o resultado
+fimalgoritmo
+
+
+Teste de Mesa
+custo_carro   impostos     distribuicao    resultado_consumidor
+25.000,00     45%          28%             46.400,00
