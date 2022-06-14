@@ -1,0 +1,14 @@
+Algoritmo "salario"
+	Entre com o total de horas  e atribua para hora
+	Entre com o total de minutos e atribua para minuto
+	Entre com o valor de cada hora e atribua para valor
+	Faca minuto/60 e atribua para tempo
+	Faca tempo+hora e atribua a total
+        Faca 1.7*(valor*total)e atribua para salario
+	Mostre salario
+Fimalgoritmo
+
+TESTE DE MESA
+
+Hora	  minuto      valor	total     salario		
+4         23          10        4.8333    74.51666
