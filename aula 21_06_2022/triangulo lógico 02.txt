@@ -1,0 +1,95 @@
+algoritmo "Triangulo Logico"
+// Função : Construir triangulo
+// Autor :Bianca
+// Data : 21/06/2022
+// Seção de Declarações 
+var
+
+a: inteiro
+b: inteiro
+c: inteiro
+triangulo: logico
+cond1: logico
+cond2: logico
+cond3: logico
+Equilatero: logico
+Isoscele: logico
+Escaleno: logico
+
+
+inicio
+
+Escreva(" Digite o valor do lado A ")
+leia(a)
+Escreval(" ")
+
+Escreva(" Digite o valor do lado B ")
+leia(b)
+Escreval(" ")
+
+Escreva(" Digite o valor do lado C ")
+leia(c)
+Escreval(" ")
+
+//resolver a condicao 1
+
+cond1 <- ((abs(b-c)<a) e (a<b+c))
+escreval(cond1)
+
+//resolver a condicao 2
+
+cond2 <- ((abs(a-c)<b) e (b<a+c))
+escreval(cond2)
+
+//resolver a condicao 3
+
+cond3 <- ((abs(a-b)<c) e (c<a+b))
+escreval(cond3)
+
+escreval(" ")
+escreval("-----------------------------")
+escreval(" ")
+
+//triangulo
+
+triangulo <- (cond1 e cond2 e cond3)
+escreval(" É um triangulo? ", triangulo)
+
+escreval(" ")
+escreval("-----------------------------")
+escreval(" ")
+
+//verificar se é Equilátero
+
+equilatero <- ((a=b) e (b=c) e (a=c) e (triangulo))
+
+escreval(" É Equilátero? ", equilatero)
+
+escreval(" ")
+escreval("-----------------------------")
+escreval(" ")
+
+//verificar se é Escaleno
+
+escaleno <- ((a<>b) e (b<>c) e (a<>c) e (triangulo))
+escreval(" É Escaleno? ", escaleno)
+
+escreval(" ")
+escreval("-----------------------------")
+escreval(" ")
+
+//verificar se é Isósceles
+//((a=b) e (a<>c) ou (a=c) e (a<>b) ou (b=c) e (b<>a)) e triangulo
+
+isoscele <- (((a=b) ou (b=c) ou (a=c)) e ((a<>b) ou (b<>c) ou (c<>a)) e triangulo)
+escreval(" É Isósceles? ", Isoscele)
+
+escreval(" ")
+escreval("-----------------------------")
+escreval(" ")
+
+
+
+
+
+fimalgoritmo
