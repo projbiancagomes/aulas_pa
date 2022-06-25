@@ -1,0 +1,25 @@
+algoritmo "custofabricacarro"
+// Função :O custo de consumidor de um carro novo
+// Autor :Bianca
+// Data : 10/05/2022
+// Seção de Declarações 
+var
+custo_carro:real
+imposto:real
+distribuicao:real
+resultado_consumidor:real
+resultado:real
+inicio
+//Dados de Entrada
+escreval("Digite o valor do custo de carro: ")
+leia(custo_carro)
+escreval("Digite a porcentagem de impostos: ")
+leia(imposto)
+escreval("Digite a porcentagem da distribuição: ")
+leia(distribuicao)
+//Processamento
+resultado_consumidor <- imposto+custo_carro
+resultado <- resultado_consumidor+distribuicao
+//Dados de Saída
+escreval("Custo do consumido é: ",resultado)
+fimalgoritmo
