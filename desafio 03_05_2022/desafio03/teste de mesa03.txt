@@ -1,0 +1,15 @@
+Algoritmo "Viagem"
+	Entre com um valor para Km
+	Entre com um valor para gasolina
+	Entre com um valor para preco
+	Faça Media=(km/gasolina)*preco
+	Faça Volta=2*media
+	Mostre media e volta
+
+fimalgoritmo
+
+Teste de mesa
+Km		gasolia		preco		media		volta
+5		2		4.90		12,25           24.5
+120		5		7.85		188.4		376.8
+   

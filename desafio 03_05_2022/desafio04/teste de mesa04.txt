@@ -1,0 +1,13 @@
+Algoritmo "Km"
+	Entre com um valor para Km
+	Entre com um valor para hora
+	Entre com um valor para minuto
+	faça (minuto/60)+hora e atribua para tempo
+	faça km/tempo e atribua para total
+	Mostre Total
+fimalgoritmo
+
+Teste de mesa
+Km		hora		minuto		tempo		total
+150		1		13		1,22   		10123
+10		5		11		5,18		1,93

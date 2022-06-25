@@ -1,0 +1,26 @@
+algoritmo "viagem"
+// Fun��o :o algoritmo deve calcular o valor que ser? gasto em uma viagem de ida e ida e
+// Autor :Bianca
+// Data : 13/06/2022
+// Se��o de Declara��es 
+var
+Km: real
+preco: real
+gasolina: real
+media: real
+volta:  real
+inicio
+// Se��o de Comandos
+Escreva("Quantos Km a viagem possui? ")
+Leia(km)
+Escreva("Quantos Km seu carro gasta por litro? ")
+Leia(gasolina)
+Escreva("Qual o valor do litro da gasolina? ")
+Leia(preco)
+
+media <- (Km/gasolina)*preco
+volta<- 2*media
+
+Escreval("Voc�? gastar?", media," reais para ir e ",volta, " reais para ir e voltar")
+
+fimalgoritmo
